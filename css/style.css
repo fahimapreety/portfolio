@@ -3375,6 +3375,33 @@ input[type="button"].btn-block {
   align-items: stretch;
   width: 100%;
 }
+#friend-portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto; /* Adjust height to fit content */
+  text-align: center;
+  margin-bottom: 10px; /* Reduce space below the section */
+}
+
+#friend-portfolio h2 {
+  font-size: 1.5rem;
+  margin-bottom: 5px; /* Less space below heading */
+}
+
+#friend-portfolio p {
+  font-size: 1rem;
+  margin-bottom: 5px; /* Less space below paragraph */
+}
+
+#friend-portfolio .portfolio-text {
+  font-weight: bold; /* Make text bold */
+  color: rgb(0, 0, 0); /* Make text black */
+  font-size: 1rem; /* Adjust text size */
+  text-decoration: none; /* Remove underline */
+}
+
 
 .input-group > .form-control,
 .input-group > .form-control-plaintext,
@@ -3386,6 +3413,7 @@ input[type="button"].btn-block {
   min-width: 0;
   margin-bottom: 0;
 }
+
 
 .input-group > .form-control + .form-control,
 .input-group > .form-control + .custom-select,
